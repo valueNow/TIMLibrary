@@ -47,3 +47,7 @@ proguard/
 
 workspace.xml
 
+gradle.properties
+gradlew
+gradlew.bat
+
