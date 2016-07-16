@@ -9,12 +9,16 @@ import static org.junit.Assert.*;
  */
 public class ExampleUnitTest {
     @Test
-    public void addition_isCorrect()/* throws Exception */{
+    public void addition_isCorrect()/* throws Exception */ {
         assertEquals(4, 2 + 2);
     }
 
     @Test
     public void addition_print() {
-        assertNotEquals(5, 1);
+//        assertNotEquals(5, 1);
+//        System.out.println(124 % 35);
+        int page = 5;
+        page += 1;
+        System.out.println(page);
     }
 }
